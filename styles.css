@@ -1,0 +1,26 @@
+body, html {
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+}
+
+::selection {
+    background: none;
+    color: none;
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+#current-affirmation {
+    font-size: 75px;
+    margin: 50px;
+    text-align: center;
+    margin: 0;
+}
